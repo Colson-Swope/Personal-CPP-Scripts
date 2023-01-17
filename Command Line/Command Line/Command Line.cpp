@@ -15,7 +15,7 @@ int main()
 
         switch (command) {
         case 'h':
-            std::cout << "Placeholder help screen. \n"
+            std::cout << "Placeholder help screen. \n";
         }
         
     } while (true);
