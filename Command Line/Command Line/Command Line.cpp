@@ -16,7 +16,10 @@ int main()
         switch (command) {
         case 'h':
             std::cout << "Placeholder help screen. \n";
+        case 'q':
+            abort;
         }
+
         
     } while (true);
     
