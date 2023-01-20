@@ -18,9 +18,10 @@ int main()
             std::cout << "Placeholder help screen. \n";
         case 'q':
             abort;
+        default:
+            std::cout << "Please enter a valid command. \n";
         }
-
-        
+                
     } while (true);
     
 
