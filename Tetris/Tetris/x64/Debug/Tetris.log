@@ -1,0 +1,15 @@
+﻿  Tetris.cpp
+Tetris.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::String::String(char const *,class std::locale const &)" (??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) referenced in function main
+Tetris.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (??0VideoMode@sf@@QEAA@III@Z) referenced in function main
+Tetris.obj : error LNK2019: unresolved external symbol "public: __cdecl sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (??0RenderWindow@sf@@QEAA@VVideoMode@1@AEBVString@1@IAEBUContextSettings@1@@Z) referenced in function main
+Tetris.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl sf::RenderWindow::~RenderWindow(void)" (??1RenderWindow@sf@@UEAA@XZ) referenced in function main
+S:\SFML SDK\SFML-2.5.1\lib\sfml-window-s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+S:\SFML SDK\SFML-2.5.1\lib\sfml-system-s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+S:\SFML SDK\SFML-2.5.1\lib\freetype.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+S:\SFML SDK\SFML-2.5.1\lib\openal32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+S:\SFML SDK\SFML-2.5.1\lib\flac.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+S:\SFML SDK\SFML-2.5.1\lib\vorbisenc.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+S:\SFML SDK\SFML-2.5.1\lib\vorbisfile.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+S:\SFML SDK\SFML-2.5.1\lib\vorbis.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+S:\SFML SDK\SFML-2.5.1\lib\ogg.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+S:\GitHub\Personal-CPP-Scripts\Tetris\x64\Debug\Tetris.exe : fatal error LNK1120: 4 unresolved externals
